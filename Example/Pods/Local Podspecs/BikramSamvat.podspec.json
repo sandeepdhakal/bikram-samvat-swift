@@ -1,9 +1,9 @@
 {
   "name": "BikramSamvat",
   "version": "0.1.0",
-  "summary": "A short description of BikramSamvat.",
+  "summary": "Bikram Samvat calendar in Swift.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sandeepdhakal/BikramSamvat",
+  "homepage": "https://github.com/sandeepdhakal/bikram-samvat-swift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "sandeepdhakal": "sandeepdhakal@gmail.com"
   },
   "source": {
-    "git": "https://github.com/sandeepdhakal/BikramSamvat.git",
+    "git": "https://github.com/sandeepdhakal/bikram-samvat-swift.git",
     "tag": "0.1.0"
   },
   "platforms": {

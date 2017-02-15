@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import BikramSamvat
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let today = BikramSamvat.today()
+        print(today)
+        
+        let todayGregorian = Date()
+        if let todayBikramSamvat = BikramSamvat.bikramSambatDate(fromGregorianDate: todayGregorian) {
+            print(todayBikramSamvat)
+            print(today == todayBikramSamvat)
+        }
     }
 
     override func didReceiveMemoryWarning() {
