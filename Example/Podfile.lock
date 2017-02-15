@@ -1,0 +1,16 @@
+PODS:
+  - BikramSamvat (0.1.0)
+
+DEPENDENCIES:
+  - BikramSamvat (from `../`)
+
+EXTERNAL SOURCES:
+  BikramSamvat:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BikramSamvat: bcc1b46a678fabc3b0137b9eac32c13d0913c842
+
+PODFILE CHECKSUM: c5aaf1578d48db96471cba18552ae2537c019702
+
+COCOAPODS: 1.1.1

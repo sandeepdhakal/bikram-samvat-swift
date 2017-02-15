@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C40490A11848DA27EBD7B52C46A518 /* Pods-BikramSamvat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4E9C36C63602C562CBED19EB22E422 /* Pods-BikramSamvat_Tests-dummy.m */; };
+		23CF2F56791325E2E39D1A4B0C93AAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2E6097AACDEBFFCA1AEBD50734E6E406 /* BikramSamvat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 551058AFB8CB4737CF11B8352B7FEBAE /* BikramSamvat-dummy.m */; };
+		64F73B9009E132680BBBC3F39BFFF300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7F0C26E88004863CF6406EF953A11850 /* Pods-BikramSamvat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A112F13311521F9282F018A6A6672A7 /* Pods-BikramSamvat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		938B03232BE5B80D2D65D6E9C369DAF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9730A919F89C3459003E1FC746F5F511 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF190231892DC5AFCB1C9500D32EA31 /* ReplaceMe.swift */; };
+		B4D67958E01ED874167C75C9CE71C241 /* Pods-BikramSamvat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8071C447AE7C83640069654803885B6 /* Pods-BikramSamvat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D646B6AE5F3BD133DE53C6F62F277D78 /* Pods-BikramSamvat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D85402EAECD7ECCD3E33D52EDEFCC /* Pods-BikramSamvat_Example-dummy.m */; };
+		F34151C02BECA77983BB60AA9BE57C09 /* BikramSamvat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 285B0E8CB93534CF7BB8630A3BAC8325 /* BikramSamvat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BBDA8C358792F04860417D55E76C2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8573C77511BBAE3959D6CD5A8D243E1C;
+			remoteInfo = BikramSamvat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045D85402EAECD7ECCD3E33D52EDEFCC /* Pods-BikramSamvat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BikramSamvat_Example-dummy.m"; sourceTree = "<group>"; };
+		0A112F13311521F9282F018A6A6672A7 /* Pods-BikramSamvat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BikramSamvat_Tests-umbrella.h"; sourceTree = "<group>"; };
+		12C65748AD1783BBA93A2DEBDBC6C3F0 /* Pods-BikramSamvat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikramSamvat_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		17505AB5D40D616A40BD451582D682CC /* Pods_BikramSamvat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikramSamvat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CCDCCC3D5181BE02ABD5FCE8C8CB35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24404FA93BD39A3484BB06D6836A1290 /* BikramSamvat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BikramSamvat.xcconfig; sourceTree = "<group>"; };
+		285B0E8CB93534CF7BB8630A3BAC8325 /* BikramSamvat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BikramSamvat-umbrella.h"; sourceTree = "<group>"; };
+		3C0FCFC3463A4760C7614F930298F95B /* BikramSamvat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BikramSamvat.modulemap; sourceTree = "<group>"; };
+		4E5C6BB70664090A4CB1E630AAC586B9 /* Pods-BikramSamvat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BikramSamvat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		551058AFB8CB4737CF11B8352B7FEBAE /* BikramSamvat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BikramSamvat-dummy.m"; sourceTree = "<group>"; };
+		5E6D3603AD2141C0B6C911E401759B31 /* Pods-BikramSamvat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikramSamvat_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		67C3B37CD67E5D40BB4CBB0D057DB746 /* Pods-BikramSamvat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BikramSamvat_Tests.modulemap"; sourceTree = "<group>"; };
+		79089B5ACC8A6BBF79D9410B6B42A565 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFEC740B10808DBEB8FE616D2FCCD34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848DA20D268D455F72D1330871C3B7B0 /* Pods-BikramSamvat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BikramSamvat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8FF096D57DD8A8417248E48F7F73326D /* Pods-BikramSamvat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BikramSamvat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D691B71634A94DF1BA152A396904AC5 /* Pods-BikramSamvat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BikramSamvat_Example.modulemap"; sourceTree = "<group>"; };
+		A207AB8A2368D4388BCBF3D2A89DA561 /* Pods-BikramSamvat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BikramSamvat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4C5F38202C2ADEEC3DFA3CFA5AC54A8 /* Pods_BikramSamvat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikramSamvat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF190231892DC5AFCB1C9500D32EA31 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		AD0A881906B47C07D77A7A1D755CD8F3 /* Pods-BikramSamvat_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikramSamvat_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B34DAAC8652F4B09FDE7B7E81406579D /* Pods-BikramSamvat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikramSamvat_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BDAB3C74A19FA481E2829614091138AB /* BikramSamvat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BikramSamvat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8071C447AE7C83640069654803885B6 /* Pods-BikramSamvat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BikramSamvat_Example-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC4E9C36C63602C562CBED19EB22E422 /* Pods-BikramSamvat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BikramSamvat_Tests-dummy.m"; sourceTree = "<group>"; };
+		CEFC276FE5E3F0693A4D7FABACE24788 /* Pods-BikramSamvat_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikramSamvat_Tests-resources.sh"; sourceTree = "<group>"; };
+		D1784E250C242F3D73B727D384ECFEF7 /* BikramSamvat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BikramSamvat-prefix.pch"; sourceTree = "<group>"; };
+		D64608A5E66F1446F6E69A48BB248D16 /* Pods-BikramSamvat_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikramSamvat_Example-resources.sh"; sourceTree = "<group>"; };
+		E2ED1271E66090D5089B81CBDC31A44B /* Pods-BikramSamvat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikramSamvat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFDCB260F1119FA5EC6B04DC3BD35DDA /* Pods-BikramSamvat_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikramSamvat_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A5609B2E5FBAFC6AAC24C007CC89B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CF2F56791325E2E39D1A4B0C93AAA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03C13EB95BCF9DCE9C7183B6D19529D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F73B9009E132680BBBC3F39BFFF300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58371724E34B32DE019E32A0B9B8445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938B03232BE5B80D2D65D6E9C369DAF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE4683508E82343D601ACCFBB631687 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				228628936E599F57CB70998FF5317637 /* BikramSamvat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		228628936E599F57CB70998FF5317637 /* BikramSamvat */ = {
+			isa = PBXGroup;
+			children = (
+				F20FA47E33D8E098E5FCB863CDCB7B8D /* BikramSamvat */,
+				92C955638CB901F0A7CCC7C87CFD2AB0 /* Support Files */,
+			);
+			name = BikramSamvat;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2E3ED0AB11CDFD36672A69EB04DA7661 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D85F192B9B13EA1AF84CBBD1C8D68 /* Pods-BikramSamvat_Example */,
+				885D1EDC9DEB195CADE60684C0404E9B /* Pods-BikramSamvat_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1AE4683508E82343D601ACCFBB631687 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FF74316AD53F8C74067812806A06BE09 /* Products */,
+				2E3ED0AB11CDFD36672A69EB04DA7661 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		885D1EDC9DEB195CADE60684C0404E9B /* Pods-BikramSamvat_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18CCDCCC3D5181BE02ABD5FCE8C8CB35 /* Info.plist */,
+				67C3B37CD67E5D40BB4CBB0D057DB746 /* Pods-BikramSamvat_Tests.modulemap */,
+				4E5C6BB70664090A4CB1E630AAC586B9 /* Pods-BikramSamvat_Tests-acknowledgements.markdown */,
+				A207AB8A2368D4388BCBF3D2A89DA561 /* Pods-BikramSamvat_Tests-acknowledgements.plist */,
+				CC4E9C36C63602C562CBED19EB22E422 /* Pods-BikramSamvat_Tests-dummy.m */,
+				EFDCB260F1119FA5EC6B04DC3BD35DDA /* Pods-BikramSamvat_Tests-frameworks.sh */,
+				CEFC276FE5E3F0693A4D7FABACE24788 /* Pods-BikramSamvat_Tests-resources.sh */,
+				0A112F13311521F9282F018A6A6672A7 /* Pods-BikramSamvat_Tests-umbrella.h */,
+				E2ED1271E66090D5089B81CBDC31A44B /* Pods-BikramSamvat_Tests.debug.xcconfig */,
+				12C65748AD1783BBA93A2DEBDBC6C3F0 /* Pods-BikramSamvat_Tests.release.xcconfig */,
+			);
+			name = "Pods-BikramSamvat_Tests";
+			path = "Target Support Files/Pods-BikramSamvat_Tests";
+			sourceTree = "<group>";
+		};
+		92C955638CB901F0A7CCC7C87CFD2AB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FCFC3463A4760C7614F930298F95B /* BikramSamvat.modulemap */,
+				24404FA93BD39A3484BB06D6836A1290 /* BikramSamvat.xcconfig */,
+				551058AFB8CB4737CF11B8352B7FEBAE /* BikramSamvat-dummy.m */,
+				D1784E250C242F3D73B727D384ECFEF7 /* BikramSamvat-prefix.pch */,
+				285B0E8CB93534CF7BB8630A3BAC8325 /* BikramSamvat-umbrella.h */,
+				79089B5ACC8A6BBF79D9410B6B42A565 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BikramSamvat";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7213B81C8F54A517CB860701E1280DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AAF190231892DC5AFCB1C9500D32EA31 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EC5D85F192B9B13EA1AF84CBBD1C8D68 /* Pods-BikramSamvat_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7BFEC740B10808DBEB8FE616D2FCCD34 /* Info.plist */,
+				9D691B71634A94DF1BA152A396904AC5 /* Pods-BikramSamvat_Example.modulemap */,
+				8FF096D57DD8A8417248E48F7F73326D /* Pods-BikramSamvat_Example-acknowledgements.markdown */,
+				848DA20D268D455F72D1330871C3B7B0 /* Pods-BikramSamvat_Example-acknowledgements.plist */,
+				045D85402EAECD7ECCD3E33D52EDEFCC /* Pods-BikramSamvat_Example-dummy.m */,
+				AD0A881906B47C07D77A7A1D755CD8F3 /* Pods-BikramSamvat_Example-frameworks.sh */,
+				D64608A5E66F1446F6E69A48BB248D16 /* Pods-BikramSamvat_Example-resources.sh */,
+				C8071C447AE7C83640069654803885B6 /* Pods-BikramSamvat_Example-umbrella.h */,
+				5E6D3603AD2141C0B6C911E401759B31 /* Pods-BikramSamvat_Example.debug.xcconfig */,
+				B34DAAC8652F4B09FDE7B7E81406579D /* Pods-BikramSamvat_Example.release.xcconfig */,
+			);
+			name = "Pods-BikramSamvat_Example";
+			path = "Target Support Files/Pods-BikramSamvat_Example";
+			sourceTree = "<group>";
+		};
+		F20FA47E33D8E098E5FCB863CDCB7B8D /* BikramSamvat */ = {
+			isa = PBXGroup;
+			children = (
+				C7213B81C8F54A517CB860701E1280DB /* Classes */,
+			);
+			path = BikramSamvat;
+			sourceTree = "<group>";
+		};
+		FF74316AD53F8C74067812806A06BE09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDAB3C74A19FA481E2829614091138AB /* BikramSamvat.framework */,
+				17505AB5D40D616A40BD451582D682CC /* Pods_BikramSamvat_Example.framework */,
+				A4C5F38202C2ADEEC3DFA3CFA5AC54A8 /* Pods_BikramSamvat_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		169536889EC76553945D5445FDE071C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34151C02BECA77983BB60AA9BE57C09 /* BikramSamvat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8E7280EA355762E9607796B85A35FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D67958E01ED874167C75C9CE71C241 /* Pods-BikramSamvat_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D5656FFC3297EAF57011FE9CFCA1B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0C26E88004863CF6406EF953A11850 /* Pods-BikramSamvat_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8573C77511BBAE3959D6CD5A8D243E1C /* BikramSamvat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6051471BFB12B8D39C104F6C3F037A4C /* Build configuration list for PBXNativeTarget "BikramSamvat" */;
+			buildPhases = (
+				B166BC7201D719866D893FBB286B4C10 /* Sources */,
+				D03C13EB95BCF9DCE9C7183B6D19529D /* Frameworks */,
+				169536889EC76553945D5445FDE071C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikramSamvat;
+			productName = BikramSamvat;
+			productReference = BDAB3C74A19FA481E2829614091138AB /* BikramSamvat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7EB6F22CB8A5CA724D050691543AE75 /* Pods-BikramSamvat_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2212AA465BEC344EA2CE7F2F01B3408F /* Build configuration list for PBXNativeTarget "Pods-BikramSamvat_Tests" */;
+			buildPhases = (
+				EC3F59F670339783FC7FE496D1561FAB /* Sources */,
+				D58371724E34B32DE019E32A0B9B8445 /* Frameworks */,
+				45D5656FFC3297EAF57011FE9CFCA1B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BikramSamvat_Tests";
+			productName = "Pods-BikramSamvat_Tests";
+			productReference = A4C5F38202C2ADEEC3DFA3CFA5AC54A8 /* Pods_BikramSamvat_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2529B65897638DDEB9DCF55C1B168EB /* Pods-BikramSamvat_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6FFFB7B49EBC52AD368CB1A828B3C48 /* Build configuration list for PBXNativeTarget "Pods-BikramSamvat_Example" */;
+			buildPhases = (
+				CA2DAFC00CB952FBD6D7E85763688408 /* Sources */,
+				0A5609B2E5FBAFC6AAC24C007CC89B38 /* Frameworks */,
+				2D8E7280EA355762E9607796B85A35FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AEF3A23121E09C8BDC368F2D58ABD49 /* PBXTargetDependency */,
+			);
+			name = "Pods-BikramSamvat_Example";
+			productName = "Pods-BikramSamvat_Example";
+			productReference = 17505AB5D40D616A40BD451582D682CC /* Pods_BikramSamvat_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					8573C77511BBAE3959D6CD5A8D243E1C = {
+						LastSwiftMigration = 0820;
+					};
+					B7EB6F22CB8A5CA724D050691543AE75 = {
+						LastSwiftMigration = 0820;
+					};
+					E2529B65897638DDEB9DCF55C1B168EB = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FF74316AD53F8C74067812806A06BE09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8573C77511BBAE3959D6CD5A8D243E1C /* BikramSamvat */,
+				E2529B65897638DDEB9DCF55C1B168EB /* Pods-BikramSamvat_Example */,
+				B7EB6F22CB8A5CA724D050691543AE75 /* Pods-BikramSamvat_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B166BC7201D719866D893FBB286B4C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6097AACDEBFFCA1AEBD50734E6E406 /* BikramSamvat-dummy.m in Sources */,
+				9730A919F89C3459003E1FC746F5F511 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2DAFC00CB952FBD6D7E85763688408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646B6AE5F3BD133DE53C6F62F277D78 /* Pods-BikramSamvat_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3F59F670339783FC7FE496D1561FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C40490A11848DA27EBD7B52C46A518 /* Pods-BikramSamvat_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AEF3A23121E09C8BDC368F2D58ABD49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BikramSamvat;
+			target = 8573C77511BBAE3959D6CD5A8D243E1C /* BikramSamvat */;
+			targetProxy = 0BBDA8C358792F04860417D55E76C2AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2816EC860E524CAE77B508E2CDE371D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2ED1271E66090D5089B81CBDC31A44B /* Pods-BikramSamvat_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BikramSamvat_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BikramSamvat_Tests/Pods-BikramSamvat_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BikramSamvat_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AC06A9E9BA731E7AF535F346B644E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6D3603AD2141C0B6C911E401759B31 /* Pods-BikramSamvat_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BikramSamvat_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BikramSamvat_Example/Pods-BikramSamvat_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BikramSamvat_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DB1BF642D0FB954323CBB1DC21C7FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34DAAC8652F4B09FDE7B7E81406579D /* Pods-BikramSamvat_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BikramSamvat_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BikramSamvat_Example/Pods-BikramSamvat_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BikramSamvat_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		709AB586708740B934AC4A90C04869BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24404FA93BD39A3484BB06D6836A1290 /* BikramSamvat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BikramSamvat/BikramSamvat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BikramSamvat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BikramSamvat/BikramSamvat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BikramSamvat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89320840DD9C77C0523B4EEEDFF93F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24404FA93BD39A3484BB06D6836A1290 /* BikramSamvat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BikramSamvat/BikramSamvat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BikramSamvat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BikramSamvat/BikramSamvat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BikramSamvat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AA1EB7A993A8301D1C33C303C061CC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C65748AD1783BBA93A2DEBDBC6C3F0 /* Pods-BikramSamvat_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BikramSamvat_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BikramSamvat_Tests/Pods-BikramSamvat_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BikramSamvat_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2212AA465BEC344EA2CE7F2F01B3408F /* Build configuration list for PBXNativeTarget "Pods-BikramSamvat_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2816EC860E524CAE77B508E2CDE371D9 /* Debug */,
+				AA1EB7A993A8301D1C33C303C061CC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6051471BFB12B8D39C104F6C3F037A4C /* Build configuration list for PBXNativeTarget "BikramSamvat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709AB586708740B934AC4A90C04869BC /* Debug */,
+				89320840DD9C77C0523B4EEEDFF93F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FFFB7B49EBC52AD368CB1A828B3C48 /* Build configuration list for PBXNativeTarget "Pods-BikramSamvat_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC06A9E9BA731E7AF535F346B644E12 /* Debug */,
+				5DB1BF642D0FB954323CBB1DC21C7FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

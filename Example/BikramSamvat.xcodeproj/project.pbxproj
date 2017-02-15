@@ -31,7 +31,7 @@
 		0519F0BDE9767FEF2F6A1B35 /* Pods-BikramSamvat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikramSamvat_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikramSamvat_Example/Pods-BikramSamvat_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2BE9B0F6699C2C1BCDA4291C /* Pods-BikramSamvat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikramSamvat_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikramSamvat_Example/Pods-BikramSamvat_Example.release.xcconfig"; sourceTree = "<group>"; };
 		312941449D229E952B9C23A0 /* Pods-BikramSamvat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikramSamvat_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikramSamvat_Tests/Pods-BikramSamvat_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5967F88AF8D358403DDB264C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5967F88AF8D358403DDB264C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BikramSamvat_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikramSamvat_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6246E05714A88F150B1B3C77 /* Pods-BikramSamvat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikramSamvat_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikramSamvat_Tests/Pods-BikramSamvat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		79EE4232B9A64AA16E8B4B37 /* Pods_BikramSamvat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikramSamvat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8215E3AA55C9A4D2BD7E2615 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9794F42FF24CE873C05F4D9E /* BikramSamvat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BikramSamvat.podspec; path = ../BikramSamvat.podspec; sourceTree = "<group>"; };
+		8215E3AA55C9A4D2BD7E2615 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9794F42FF24CE873C05F4D9E /* BikramSamvat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BikramSamvat.podspec; path = ../BikramSamvat.podspec; sourceTree = "<group>"; };
 		FDD36EA287937F5AAE6F5AB7 /* Pods_BikramSamvat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikramSamvat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -215,9 +215,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -494,6 +496,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +510,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
