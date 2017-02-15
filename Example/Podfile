@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BikramSamvat_Example' do
+  pod 'BikramSamvat', :path => '../'
+
+  target 'BikramSamvat_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
