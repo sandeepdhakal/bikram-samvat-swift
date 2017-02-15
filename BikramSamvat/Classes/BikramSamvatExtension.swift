@@ -9,11 +9,11 @@
 import Foundation
 
 public extension BikramSamvat {
-    /// Returns the number of days in the given Bikram Sambat year and month. Returns nil if the year and month are outside the calendar's range.
+    /// Returns the number of days in the given Bikram Samvat year and month. Returns nil if the year and month are outside the calendar's range.
     ///
     /// - Parameters:
-    ///   - year: Bikram Sambat year
-    ///   - month: Bikram Sambat month in the range 1...12
+    ///   - year: Bikram Samvat year
+    ///   - month: Bikram Samvat month in the range 1...12
     /// - Returns: Number of days in the given year and month, nil if year and month are outside the calendar's range.
     public static func numberOfDays(inYear year: Int, month: Int) -> Int? {
         guard yearRange ~= year else {return nil}
@@ -41,7 +41,7 @@ public extension BikramSamvat {
     ///
     /// - Returns: Bikram Samvat date for today.
     public static func today() -> BikramSamvatDate {
-        return bikramSambatDate(fromGregorianDate: Date())!
+        return bikramSamvatDate(fromGregorianDate: Date())!
     }
     
     /// Converts date from Bikram Samvat calendar to Gregorian calendar.
@@ -67,7 +67,7 @@ public extension BikramSamvat {
     ///
     /// - Parameter date: date in Gregorian calendar.
     /// - Returns: date in BikramSamvat calendar.
-    public static func bikramSambatDate(fromGregorianDate date: Date) -> BikramSamvatDate? {
+    public static func bikramSamvatDate(fromGregorianDate date: Date) -> BikramSamvatDate? {
         // convert gregorian date to NPT
         let components = Calendar(identifier: .gregorian).dateComponents(in: timezone, from: date)
         let dayOfGregorianYear = Calendar(identifier: .gregorian).ordinality(of: .day, in: .year, for: date)!

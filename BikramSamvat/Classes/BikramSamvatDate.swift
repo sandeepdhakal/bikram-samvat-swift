@@ -36,7 +36,7 @@ public class BikramSamvatDate {
     }
     
     public init?(fromGregorianDate date: Date) {
-        guard let _date = BikramSamvat.bikramSambatDate(fromGregorianDate: date) else {return nil}
+        guard let _date = BikramSamvat.bikramSamvatDate(fromGregorianDate: date) else {return nil}
         self.year = _date.year
         self.month = _date.month
         self.day = _date.day

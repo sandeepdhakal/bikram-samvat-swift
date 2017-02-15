@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         print(today)
         
         let todayGregorian = Date()
-        if let todayBikramSamvat = BikramSamvat.bikramSambatDate(fromGregorianDate: todayGregorian) {
+        if let todayBikramSamvat = BikramSamvat.bikramSamvatDate(fromGregorianDate: todayGregorian) {
             print(todayBikramSamvat)
             print(today == todayBikramSamvat)
         }
