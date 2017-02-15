@@ -20,10 +20,12 @@ class ViewController: UIViewController {
             return
         }
         
+        print("Bikram Samvat Date: \(today)")
         let todayGregorian = Date()
         if let todayBikramSamvat = BikramSamvat.bikramSamvatDate(fromGregorianDate: todayGregorian) {
-            print(todayBikramSamvat)
-            print(today == todayBikramSamvat)
+            if today == todayBikramSamvat {
+                print("Testing ok")
+            }
         } else {
             print("Oops. Contact the developer -(")
         }
