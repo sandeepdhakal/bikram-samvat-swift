@@ -15,13 +15,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let today = BikramSamvat.today()
-        print(today)
+        guard let today = BikramSamvatDate() else {
+            print("Today is out of the supported range.")
+            return
+        }
         
         let todayGregorian = Date()
         if let todayBikramSamvat = BikramSamvat.bikramSamvatDate(fromGregorianDate: todayGregorian) {
             print(todayBikramSamvat)
             print(today == todayBikramSamvat)
+        } else {
+            print("Oops. Contact the developer -(")
         }
     }
 

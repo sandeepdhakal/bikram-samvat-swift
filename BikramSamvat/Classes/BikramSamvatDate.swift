@@ -23,6 +23,11 @@ public class BikramSamvatDate {
         return BikramSamvat.gregorianDate(fromBikramSamvatDate: self)
     }()
     
+    public convenience init?() {
+        guard let _date = BikramSamvat.bikramSamvatDate(fromGregorianDate: Date()) else {return nil}
+        self.init(year: _date.year, month: _date.month, day: _date.day)
+    }
+    
     public init?(year: Int, month: Int, day: Int) {
         guard BikramSamvat.yearRange ~= year else {return nil}
         guard 1 ... 12 ~= month else {return nil}
@@ -33,13 +38,6 @@ public class BikramSamvatDate {
         self.year = year
         self.month = month
         self.day = day
-    }
-    
-    public init?(fromGregorianDate date: Date) {
-        guard let _date = BikramSamvat.bikramSamvatDate(fromGregorianDate: date) else {return nil}
-        self.year = _date.year
-        self.month = _date.month
-        self.day = _date.day
     }
     
     /// Returns true if two BikramSamvatDate values represent the same point in time.
